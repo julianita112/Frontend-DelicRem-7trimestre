@@ -43,7 +43,7 @@ export function SignIn() {
         title: "Acceso concedido"
       });
 
-      navigate("/home");
+      navigate("/dashboard/home"); // Ruta actualizada
     } catch (err) {
       Toast.fire({
         icon: "error",
